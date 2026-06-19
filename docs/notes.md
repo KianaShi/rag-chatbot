@@ -18,3 +18,12 @@ Incorrect retrieval may lead the LLM to generate incorrect answers, even if the 
 My intuition is that a vector database and retriever are somewhat similar to a HashMap, but with fuzzy matching instead of exact matching.
 A HashMap returns a value when the key matches exactly. In contrast, a retriever returns the top-k chunks whose vectors are closest to the query vector.
 This analogy is not perfectly accurate, but it helps me understand how retrieval works.
+
+# Day 2 Design
+Input:
+- file_path
+Output:
+- list[str]
+Behavior:
+- Ignore empty lines.
+- Different file formats should return the same output structure.

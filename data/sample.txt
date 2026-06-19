@@ -1,3 +1,5 @@
 Transformer was introduced by Google in 2017.
+
 Self-attention is the key component of Transformer.
+
 Large language models are based on Transformer architectures.
